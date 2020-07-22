@@ -23,7 +23,7 @@ namespace OOP_Project
 
         }
 
-
+        //Fields to manipulate data in Patient type
         public int PatientID { get; private set; }
 
         public string InsuranceID { get; private set; }
@@ -36,6 +36,7 @@ namespace OOP_Project
 
         private string _displayInsuranceInfo;
 
+        //Method to Calculate Total service charges incurred
         public void CalcTotalServicePaid(int patID)
         { 
         var paidByPatient = new List<Double>() { 564.90, 778.0, 677.90 };
