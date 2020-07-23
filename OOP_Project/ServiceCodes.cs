@@ -32,7 +32,7 @@ namespace OOP_Project
                     _ServiceCode = value;
                 }
                 else
-                { throw new Exception("c"); }
+                { throw new Exception("Service Code is NULL."); }
             }
             
 

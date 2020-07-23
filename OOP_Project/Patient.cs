@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,6 +37,15 @@ namespace OOP_Project
 
         private string _displayInsuranceInfo;
 
+        
+
+        public string DisplayInsuranceInfo {
+
+            get { return "The name of the Insurance Company is: " + InsuranceCompany + " " + "The Plan Type is: " + PlanName; }
+
+            set { _displayInsuranceInfo = value; }
+        }
+
         //Method to Calculate Total service charges incurred
         public void CalcTotalServicePaid(int patID)
         { 
@@ -70,14 +80,6 @@ namespace OOP_Project
             }
 
         }
-
-        public string DisplayInsuranceInfo {
-
-            get { return "The name of the Insurance Company is: " + InsuranceCompany + " " + "The Plan Type is: " + PlanName; }
-
-            set { _displayInsuranceInfo = value; }
-        }
-
 
         public Boolean IfNullBlank()
         {
