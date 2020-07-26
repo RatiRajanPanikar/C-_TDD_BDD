@@ -8,6 +8,7 @@ namespace OOP_Project
 {
     public class LogicalLoops
     {
+        //Test to display palindrome
         public static bool IsPalidrome(string words)
         {
             int min = 0;

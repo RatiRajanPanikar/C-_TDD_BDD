@@ -19,6 +19,7 @@ namespace NUnitTests
         {
             //Arrange
             var newWord = "Level";
+            //Act
             var Ispalindrome = LogicalLoops.IsPalindrome(newWord);
 
             //Assert
