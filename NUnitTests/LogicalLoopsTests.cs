@@ -9,7 +9,8 @@ using NUnitTests;
 
 
 namespace NUnitTests
-{ 
+{
+    //test#1
     [TestFixture]
     public class RandomLogicalQuestions
     {
