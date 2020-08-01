@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTestsSuite", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{E634369E-513C-4D90-A358-CD1F8A85C3CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FuntionalUITestSuite", "FuntionalUITestSuite", "{BD49D84B-0294-4143-8F1A-788FDBC70D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageObjectModelTestSuite", "PageObjectModelTestSuite\PageObjectModelTestSuite.csproj", "{F7095D29-199D-4DAB-BABA-D29D20CC4EDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{E634369E-513C-4D90-A358-CD1F8A85C3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E634369E-513C-4D90-A358-CD1F8A85C3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E634369E-513C-4D90-A358-CD1F8A85C3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7095D29-199D-4DAB-BABA-D29D20CC4EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7095D29-199D-4DAB-BABA-D29D20CC4EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7095D29-199D-4DAB-BABA-D29D20CC4EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7095D29-199D-4DAB-BABA-D29D20CC4EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{A07317C5-6E41-4450-8C8B-32D555CAD8B9} = {53E1F12A-39DF-40F5-AA51-FA7DF4A51402}
 		{9DF87588-8FC7-4DCF-8F92-695B6BABCF89} = {A07317C5-6E41-4450-8C8B-32D555CAD8B9}
 		{E634369E-513C-4D90-A358-CD1F8A85C3CC} = {FA9F0FC5-3897-48C8-98AE-3D786F58B255}
+		{F7095D29-199D-4DAB-BABA-D29D20CC4EDA} = {BD49D84B-0294-4143-8F1A-788FDBC70D00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B52051DD-C4F0-4753-A6EB-F59BDBF0CA70}

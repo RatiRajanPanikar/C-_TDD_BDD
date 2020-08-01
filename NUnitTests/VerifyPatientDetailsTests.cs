@@ -24,6 +24,7 @@ namespace NUnitTests
                 PatientFullName = ""
             };
 
+
             var sut = new VerifyPatientDetails(mock.Object);
 
             var errors = sut.Validate(instance);
